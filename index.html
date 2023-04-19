@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Annotator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Image Annotator</h1>
+      <input type="file" id="imageFile" accept="image/*" />
+      <button id="downloadJSON">Download JSON</button>
+    </header>
+    <main>
+      <div id="imageContainer">
+        <canvas id="imageCanvas"></canvas>
+      </div>
+    </main>
+    <script src="helpers.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
